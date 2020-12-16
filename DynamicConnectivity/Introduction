@@ -1,0 +1,8 @@
+The goal is to write a program to filter out extraneous pair (pairs where both objects are in the same equivalence class) from the sequence.
+In other words, when the program reads a pair q p from the input, it should write the pair to the outout only if the pairs it has seen to that
+point do not imply that p is connected to q. If the previous paird do imply that p is connected to q, then the program should ignore the pair
+p q and proceed to read in the next pair.
+This problem arises applications such as the following:
+Networks.
+Variable-name equivalence.
+Mathematical sets.
