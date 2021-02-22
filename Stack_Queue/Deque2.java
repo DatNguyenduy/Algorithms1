@@ -35,7 +35,7 @@ public class Deque2<Item> implements Iterable<Item>
 		}
 		public Item next()
 		{
-			if (size == 0) throw new java.util.NoSuchElementException("RandomizedDeque is empty");
+			if (size == 0) throw new java.util.NoSuchElementException("RandomizedDeque is empty aaaaaaa");
 			current = current.next;
 			return current.item;
 		}
